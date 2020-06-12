@@ -1,4 +1,4 @@
-package br.com.franca;
+package br.com.franca.model;
 
 public class Unidade {
 	
