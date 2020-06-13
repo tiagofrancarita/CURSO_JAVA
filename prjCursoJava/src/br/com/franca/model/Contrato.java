@@ -5,8 +5,8 @@ import java.util.Date;
 public class Contrato {
 
 	private int id;
-	Aluno aluno = new Aluno();
-	Turma turma = new Turma();
+	private Aluno aluno = new Aluno();
+	private Turma turma = new Turma();
 	private double taxaMatricula;
 	private double valorCurso;
 	private double descontoCurso;
@@ -33,6 +33,13 @@ public class Contrato {
 	}
 
 	public void setAluno(Aluno aluno) {
+		
+		if(aluno == null || aluno.getId() < 1){
+			
+			
+			
+		}
+		
 		this.aluno = aluno;
 	}
 
