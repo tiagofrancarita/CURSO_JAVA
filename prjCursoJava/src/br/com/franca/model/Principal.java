@@ -14,7 +14,7 @@ public class Principal {
 		
 		
 		
-		Unidade unid = new Unidade ();
+		
 		
 		
 		// Configuracao do OBJ turma.
